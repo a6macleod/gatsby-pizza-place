@@ -5,12 +5,13 @@ const GlobalStyles = createGlobalStyle`
     --red: #cf1717;
     --white: #F5F0F0;
     --border-radius: 10px;
+    --black: hsl(0, 20%, 15%);
   }
 
   body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 400;
-    color: hsl(0, 20%, 15%);
+    color: var(--black);
     max-width: 1600px;
     margin: 0 auto;
   }
