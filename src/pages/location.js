@@ -1,13 +1,11 @@
-import * as React from 'react'
-import { graphql, Link, useStaticQuery } from 'gatsby'
-import styled from 'styled-components'
-import GlobalStyles from '../styles/GlobalStyles'
+import * as React from 'react';
+import styled from 'styled-components';
+import GlobalStyles from '../styles/GlobalStyles';
 
-import Layout from '../components/layout'
-import Seo from '../components/seo'
+import Layout from '../components/layout';
+import Seo from '../components/seo';
 
 const StyledLocation = styled.div`
-  background-color: blue;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +36,7 @@ const StyledLocation = styled.div`
       border: solid 1px hsl(10, 0%, 20%);
     }
   }
-`
+`;
 
 export default function Location() {
   return (
@@ -67,5 +65,5 @@ export default function Location() {
         </div>
       </StyledLocation>
     </Layout>
-  )
+  );
 }

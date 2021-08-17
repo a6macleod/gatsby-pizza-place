@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
   :root {
@@ -27,6 +27,6 @@ const GlobalStyles = createGlobalStyle`
   a:hover {
     cursor: pointer;
   }
-`
+`;
 
-export default GlobalStyles
+export default GlobalStyles;

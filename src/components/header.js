@@ -1,10 +1,10 @@
-import * as React from 'react'
-import { Link } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
+import * as React from 'react';
+import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 
-import 'normalize.css'
-import styled from 'styled-components'
-import GlobalStyles from '../styles/GlobalStyles'
+import 'normalize.css';
+import styled from 'styled-components';
+import GlobalStyles from '../styles/GlobalStyles';
 
 const StyledHeader = styled.div`
   --outside-margin: 90px;
@@ -52,7 +52,7 @@ const StyledHeader = styled.div`
       font-size: 1.2em;
     }
   }
-`
+`;
 
 const Header = () => (
   <StyledHeader>
@@ -82,6 +82,6 @@ const Header = () => (
       </ul>
     </nav>
   </StyledHeader>
-)
+);
 
-export default Header
+export default Header;
