@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/gatsby-pizza-place',
   siteMetadata: {
     title: `Pizza Place - The best pizza in Kalamazoo`,
     description: `The Pizza Place is the best pizza in Kalamazoo Michigan. Bringing you delicious family friendly pizza since 2021.`,
